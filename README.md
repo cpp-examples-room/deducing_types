@@ -1,15 +1,11 @@
 # C++ deducing types
 
-## Supports
-It supports the macOS system.
-
-## Tools installing
-
+## Building and running
 ```bash
-./install_tools.sh
+git submodule update --init --recursive --remote
+cmake -H. -B_builds && cmake --build _builds
+_builds/deducing_types
 ```
-
-You also need to install Xcode and Xcode Command Line Tools.
 
 ## Resources
 
